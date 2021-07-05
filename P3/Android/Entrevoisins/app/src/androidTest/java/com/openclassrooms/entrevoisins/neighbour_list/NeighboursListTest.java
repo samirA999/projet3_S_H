@@ -46,13 +46,16 @@ public class NeighboursListTest {
 
 
     private static int ITEMS_COUNT;
-    @Rule
-    public ActivityTestRule<ListNeighbourActivity> mActivityRule =
-            new ActivityTestRule(ListNeighbourActivity.class);
     private int POSITION_ITEM = 0;
+
     private ListNeighbourActivity mActivity;
     private NeighbourApiService mService;
     private List<Neighbour> neighbourList;
+
+    @Rule
+    public ActivityTestRule<ListNeighbourActivity> mActivityRule =
+            new ActivityTestRule(ListNeighbourActivity.class);
+
 
     @Before
     public void setUp() {
@@ -62,6 +65,7 @@ public class NeighboursListTest {
         neighbourList = mService.getNeighbours();
         ITEMS_COUNT = neighbourList.size();
     }
+
 
 
     /**
@@ -86,7 +90,7 @@ public class NeighboursListTest {
         onView(ViewMatchers.withId(R.id.list_neighbours))
                 .perform(RecyclerViewActions.actionOnItemAtPosition(2, new DeleteViewAction()));
         // Then : the number of element is 11
-        onView(ViewMatchers.withId(R.id.list_neighbours)).check(withItemCount(ITEMS_COUNT - 1));
+        onView(ViewMatchers.withId(R.id.list_neighbours)).check(withItemCount(ITEMS_COUNT-1));
         System.out.println("Nombre d'objet:" + ITEMS_COUNT);
     }
 
