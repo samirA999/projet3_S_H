@@ -21,20 +21,16 @@ import org.greenrobot.eventbus.Subscribe;
 
 import java.util.List;
 
+public class FavoriteFragment extends Fragment {
 
-public class NeighbourFragment extends Fragment {
-
+    //Get information from API
     private NeighbourApiService mApiService;
     private List<Neighbour> mNeighbours;
     private RecyclerView mRecyclerView;
 
-    /**
-     * Create and return a new instance
-     *
-     * @return @{@link NeighbourFragment}
-     */
-    public static NeighbourFragment newInstance() {
-        NeighbourFragment fragment = new NeighbourFragment();
+    //Create Favorite Instance
+    public static FavoriteFragment newInstance() {
+        FavoriteFragment fragment = new FavoriteFragment();
         return fragment;
     }
 
@@ -44,29 +40,29 @@ public class NeighbourFragment extends Fragment {
         mApiService = DI.getNeighbourApiService();
     }
 
+    //Create Favorite view
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_neighbour_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_fav_neighbour, container, false);
         Context context = view.getContext();
         mRecyclerView = (RecyclerView) view;
         mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
-        mRecyclerView.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(getContext(),
+                DividerItemDecoration.VERTICAL));
         return view;
     }
 
-    /**
-     * Init the List of neighbours
-     */
-    private void initList() {
-        mNeighbours = mApiService.getNeighbours();
+    // Initialize favorite list
+    private void initfav() {
+        mNeighbours = mApiService.getFavoriteNeighbour();
         mRecyclerView.setAdapter(new MyNeighbourRecyclerViewAdapter(mNeighbours));
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        initList();
+        initfav();
     }
 
     @Override
@@ -89,6 +85,6 @@ public class NeighbourFragment extends Fragment {
     @Subscribe
     public void onDeleteNeighbour(DeleteNeighbourEvent event) {
         mApiService.deleteNeighbour(event.neighbour);
-        initList();
+        initfav();
     }
 }
