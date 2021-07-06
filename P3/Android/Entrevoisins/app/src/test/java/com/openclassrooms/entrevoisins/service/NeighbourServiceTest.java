@@ -52,14 +52,14 @@ public class NeighbourServiceTest {
     }
 
     @Test
-    public void addNeighbourToFavoriteWithSuccess() {
+    public void addNeighbourToFavoriteWithSuccess(){
         Neighbour neighbouradd = service.getNeighbours().get(0);
         service.addFavorite(neighbouradd);
         assertTrue(service.getFavoriteNeighbour().contains(neighbouradd));
     }
 
     @Test
-    public void removeNeighbourToFavoriteWithSuccess() {
+    public void removeNeighbourToFavoriteWithSuccess(){
         Neighbour neighbourremove = service.getNeighbours().get(0);
         service.addFavorite(neighbourremove);
         assertTrue(service.getFavoriteNeighbour().contains(neighbourremove));
