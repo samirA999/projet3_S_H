@@ -10,9 +10,9 @@ import java.io.Serializable;
 
 public class ProfileNeighbourActivity extends AppCompatActivity {
 
+    public static String NEIGHBOUR = "NEIGHBOUR";
     private ProfileFragment mProfileFragment;
     private Serializable mNeighbour;
-    public static String NEIGHBOUR = "NEIGHBOUR";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

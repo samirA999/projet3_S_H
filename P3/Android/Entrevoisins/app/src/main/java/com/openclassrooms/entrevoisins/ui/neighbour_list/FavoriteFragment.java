@@ -23,12 +23,12 @@ import java.util.List;
 
 public class FavoriteFragment extends Fragment {
 
-    //Get information from API
+    //Obtenir des informations à partir de l'API
     private NeighbourApiService mApiService;
     private List<Neighbour> mNeighbours;
     private RecyclerView mRecyclerView;
 
-    //Create Favorite Instance
+    //Créer une instance favorite
     public static FavoriteFragment newInstance() {
         FavoriteFragment fragment = new FavoriteFragment();
         return fragment;
@@ -40,7 +40,7 @@ public class FavoriteFragment extends Fragment {
         mApiService = DI.getNeighbourApiService();
     }
 
-    //Create Favorite view
+    //Créer une vue Favorite
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -53,7 +53,7 @@ public class FavoriteFragment extends Fragment {
         return view;
     }
 
-    // Initialize favorite list
+    //Initialiser la liste des favoris
     private void initfav() {
         mNeighbours = mApiService.getFavoriteNeighbour();
         mRecyclerView.setAdapter(new MyNeighbourRecyclerViewAdapter(mNeighbours));
