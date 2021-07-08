@@ -103,9 +103,9 @@ public class AddNeighbourActivity extends AppCompatActivity {
     /**
      * Used to navigate to this activity
      * @param activity
-     */
+     
     public static void navigate(FragmentActivity activity) {
         Intent intent = new Intent(activity, AddNeighbourActivity.class);
         ActivityCompat.startActivity(activity, intent, null);
-    }
+**//
 }
