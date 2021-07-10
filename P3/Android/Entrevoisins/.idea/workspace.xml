@@ -27,7 +27,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e113561c-46d5-4fda-9202-c7175283d71f" name="Default Changelist" comment="">
+    <list default="true" id="e113561c-46d5-4fda-9202-c7175283d71f" name="Default Changelist" comment="update gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test Results - All_Tests_(1).html" beforeDir="false" afterPath="$PROJECT_DIR$/Test Results - All_Tests_(1).html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/openclassrooms/entrevoisins/neighbour_list/NeighboursListTest.java" afterDir="false" />
@@ -62,6 +62,8 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/openclassrooms/entrevoisins/service/NeighbourServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/39/4bc32d3cda9f07814c548492af7bf19b21798d46/commons-parent-39.pom" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.apache.commons/commons-parent/39/4bc32d3cda9f07814c548492af7bf19b21798d46/commons-parent-39.pom" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2/ow2/1.5/d8edc69335f4d9f95f511716fb689c86fb0ebaae/ow2-1.5.pom" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/caches/modules-2/files-2.1/org.ow2/ow2/1.5/d8edc69335f4d9f95f511716fb689c86fb0ebaae/ow2-1.5.pom" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/caches/transforms-2/files-2.1/0bfea860b434c4e50790f7bdea85e471/runner-1.0.2/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/caches/transforms-2/files-2.1/0bfea860b434c4e50790f7bdea85e471/runner-1.0.2/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/caches/transforms-2/files-2.1/0d1c5c6ca1bcd9b48dbd540322103c10/slidingpanelayout-28.0.0/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/caches/transforms-2/files-2.1/0d1c5c6ca1bcd9b48dbd540322103c10/slidingpanelayout-28.0.0/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/caches/transforms-2/files-2.1/1986b45cb766081b34849193e6950bdd/drawerlayout-28.0.0/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/caches/transforms-2/files-2.1/1986b45cb766081b34849193e6950bdd/drawerlayout-28.0.0/AndroidManifest.xml" afterDir="false" />
@@ -3062,6 +3064,14 @@
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/kotlin-dsl/org/gradle/kotlin/dsl/support/delegates/TaskContainerDelegate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/kotlin-dsl/org/gradle/kotlin/dsl/support/delegates/TaskContainerDelegate.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/kotlin-dsl/org/gradle/kotlin/dsl/support/string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/kotlin-dsl/org/gradle/kotlin/dsl/support/string.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/kotlin-dsl/org/gradle/kotlin/dsl/support/zip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/kotlin-dsl/org/gradle/kotlin/dsl/support/zip.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/DefaultVcsMappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/DefaultVcsMappings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/resolver/DefaultVcsVersionWorkingDirResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/resolver/DefaultVcsVersionWorkingDirResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/resolver/VcsDependencyResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/resolver/VcsDependencyResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/services/DefaultVersionControlRepositoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/version-control/org/gradle/vcs/internal/services/DefaultVersionControlRepositoryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/NoIsolationWorkerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/NoIsolationWorkerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/WorkerDaemonClientsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/WorkerDaemonClientsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/WorkerDaemonExpiration.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/WorkerDaemonExpiration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/WorkerDaemonServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/dists/gradle-6.7.1-all/2moa8rlfac5eqlcfgk98k0deb/gradle-6.7.1/src/workers/org/gradle/workers/internal/WorkerDaemonServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenshot/barre outil.png" beforeDir="false" />
     </list>
@@ -3076,6 +3086,28 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Entrevoisins" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Entrevoisins" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -3098,8 +3130,8 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@C:\Users\oussa\.android\avd\Pixel_XL_API_28_1.avd" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-06T10:13:25.550312Z" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="I:/Nouveau dossier (5)/projet3_S_H-main/P3/Android/Entrevoisins" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="last_opened_file_path" value="F:/Projet_03/Projet_03/Entrevoisins" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager" selected="Android Instrumented Tests.NeighboursListTest">
     <configuration name="NeighbourServiceTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
@@ -3404,7 +3436,7 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\oussa\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -3414,6 +3446,35 @@
       <option name="presentableId" value="Default" />
       <updated>1625429371650</updated>
     </task>
+    <task id="LOCAL-00001" summary="update gitignore">
+      <created>1625814393752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625814393752</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update gitignore">
+      <created>1625814436213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625814436213</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update gitignore">
+      <created>1625814637823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625814637823</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update gitignore">
+      <created>1625814691040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625814691040</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UpdateCopyrightCheckinHandler">
@@ -3449,7 +3510,8 @@
       <path value="$PROJECT_DIR$/../.." />
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -3466,10 +3528,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="107" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1625564708115" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1625760885232">
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1625830026447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625760885232" />
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625830026447" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1625846081488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1625846081488" />
     <state x="590" y="341" width="893" height="204" key="Github.ShareDialog" timestamp="1625564975891">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -3478,38 +3544,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625564873987" />
-    <state width="916" height="242" key="GridCell.Tab.0.bottom" timestamp="1625765737652">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1625815041494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625765737652" />
-    <state width="916" height="242" key="GridCell.Tab.0.center" timestamp="1625765737652">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1625815041494" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1625815041494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625765737652" />
-    <state width="916" height="242" key="GridCell.Tab.0.left" timestamp="1625765737652">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1625815041494" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1625815041494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625765737652" />
-    <state width="916" height="242" key="GridCell.Tab.0.right" timestamp="1625765737652">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1625815041494" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1625815041494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625765737652" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1625815041494" />
     <state x="540" y="263" key="IDE.errors.dialog" timestamp="1625501419069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="263" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625501419069" />
-    <state x="683" y="141" key="SettingsEditor" timestamp="1625675928303">
+    <state x="683" y="141" key="SettingsEditor" timestamp="1625769589964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="683" y="141" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625675928303" />
+    <state x="683" y="141" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1625769589964" />
     <state x="752" y="425" width="416" height="228" key="SetupCloudRepositoryDialog" timestamp="1625564505541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="425" width="416" height="228" key="SetupCloudRepositoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625564505541" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1625732718445">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1625846044835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625732718445" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1625846044835" />
     <state x="745" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1625504562342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -3518,14 +3584,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="345" key="export.test.results/0.0.1920.1040@0.0.1920.1040" timestamp="1625743830998" />
-    <state x="757" y="411" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1625564904409">
+    <state x="757" y="411" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1625814583932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="757" y="411" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625564904409" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625753870428">
+    <state x="757" y="411" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625814583932" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1625814213801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625753870428" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625814213801" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1625814239617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625814239617" />
     <state x="757" y="206" width="428" height="628" key="svn.repositoryBrowser" timestamp="1625480428767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
